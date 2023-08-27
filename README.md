@@ -9,9 +9,8 @@ https://kateinoigakukun.github.io/swiftwasm-game-of-life/
 ## Development
 
 ```sh
-$ swift package generate-xcodeproj
-$ open LifeGame.xcodeproj
-$ carton dev --custom-index-page static/index.html
+open Package.swift
+carton dev
 ```
 
-![](./assets/life-game-dev.gif)
+![](Downloads/Percolation.mov)
