@@ -13,4 +13,4 @@ open Package.swift
 carton dev
 ```
 
-![](Downloads/Percolation.mov)
+![](Downloads/Percolation.png)
