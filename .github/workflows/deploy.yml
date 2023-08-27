@@ -11,7 +11,7 @@ jobs:
     - name: Bundle
       uses: swiftwasm/swiftwasm-action@v5.8
       with:
-        shell-action: carton bundle --custom-index-page static/index.html
+        shell-action: carton bundle
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
