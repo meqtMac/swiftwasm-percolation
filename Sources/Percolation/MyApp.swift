@@ -1,3 +1,4 @@
+import JavaScriptKit
 @main
 struct MyApp: WebApp {
     static let canvas = Canvas()
