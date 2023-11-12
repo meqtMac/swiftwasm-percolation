@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:swiftwasm-percolation}",
+            "name": "Debug Percolation",
+            "program": "${workspaceFolder:swiftwasm-percolation}/.build/debug/Percolation",
+            "preLaunchTask": "swift: Build Debug Percolation"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:swiftwasm-percolation}",
+            "name": "Release Percolation",
+            "program": "${workspaceFolder:swiftwasm-percolation}/.build/release/Percolation",
+            "preLaunchTask": "swift: Build Release Percolation"
+        }
+    ]
+}

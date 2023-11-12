@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "javascriptkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/swiftwasm/JavaScriptKit.git",
+      "state" : {
+        "revision" : "096584bb6959f16d97daf3ebf52039f98c36fdbf",
+        "version" : "0.18.0"
+      }
+    }
+  ],
+  "version" : 2
+}
