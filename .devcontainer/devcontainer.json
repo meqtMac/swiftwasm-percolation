@@ -26,13 +26,13 @@
             // Set *default* container specific settings.json values on container create.
             "settings": {
                 "lldb.library": "/usr/lib/liblldb.so",
-                "swift.formatOnSave": true,
-                "swift.formatOptions": {
-                    "lineBreakBeforeEachArgument": true,
-                    "indentation": "spaces",
-                    "lineLength": 100,
-                    "alignMultilineComments": true
-                }
+                // "swift.formatOnSave": true,
+                // "swift.formatOptions": {
+                //     "lineBreakBeforeEachArgument": true,
+                //     "indentation": "spaces",
+                //     "lineLength": 100,
+                //     "alignMultilineComments": true
+                // }
             },
             // Add the IDs of extensions you want installed when the container is created.
             "extensions": [
@@ -42,10 +42,8 @@
     },
     // Use 'forwardPorts' to make a list of ports inside the container available locally.
     "forwardPorts": [8080],
-
     // Use 'postCreateCommand' to run commands after the container is created.
     "postCreateCommand": "carton --version",
-
     // Set `remoteUser` to `root` to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
     "remoteUser": "vscode"
 }

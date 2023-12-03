@@ -1,17 +1,8 @@
-# LifeGame with SwiftWasm
+# SwiftWasm Example, Percolation Simulation
 
-https://kateinoigakukun.github.io/swiftwasm-game-of-life/
+[Live Site](https://meqtmac.github.io/swiftwasm-percolation/)
 
-## Requirements
-
-- [swiftwasm/carton: SwiftWasm Tool](https://github.com/swiftwasm/carton)
-
-## Development
-
-```sh
-open Package.swift
-carton dev
-```
+![](Documentation/Percolation.png)
 
 Some Swifty Style UI.
 ```swift
@@ -31,7 +22,7 @@ struct MyApp: WebApp {
             Button("Start") {
                 simulator.start()
             }
-            Button("Stop") {
+            Button("Pause") {
                 simulator.stop()
             }
         }
@@ -39,4 +30,3 @@ struct MyApp: WebApp {
 }
 ```
 
-![](Documentation/Percolation.png)
